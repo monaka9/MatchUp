@@ -3,7 +3,9 @@
 A clone of tinder with modified functionalities. 
 
 Packages used: 
-React - 
+Front-End: React - Cookie, router-dom, spring, tinder-card
+
+Server: MongoDB, with bcrypt, cors, express, jsonwebtoken, mongodb, nodemon, uuid
 
 This webapp runs with React and emulates a similar environment to Tinder. 
 
@@ -22,3 +24,5 @@ Events:
 This project is done following the instructions of this video, but instead of matching just based on gender, I modified it to match based on shared personality tags and shared events of interest. Video: https://www.youtube.com/watch?v=Q70IMS-Qnjk 
 
 Issues: The front end code could be optimized to look cleaner. 
+
+How to run: Add your own uri from MongoDB into the server index.js file, make sure the packages are installed, and run using 'npm start:frontend' in matchup folder directory and 'npm start:backend' in server directory. 
